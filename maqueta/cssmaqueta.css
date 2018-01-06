@@ -1,0 +1,215 @@
+@font-face {
+font-family: Lobster;
+src: url(/fonts/Lobster_1.3.otf);
+}
+
+
+
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/*header*/
+
+
+
+
+.info {
+   
+    width: 100%;
+    padding: 8px;
+    margin: auto;
+    
+    text-align: center;
+    
+    
+    
+}
+
+
+
+#btn_menu
+{
+    color: white;
+    font-size:35px;
+    margin-left: 5px;
+    display: none;
+}
+
+
+.logo{
+    
+    width: 35%;
+    margin-left: -10px;
+    
+    
+    
+}
+
+.phone-img
+{
+    width: 8%;
+    margin-left: 2%;
+    display: none;
+}
+
+
+.phone {
+    
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(27, 117, 254);
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 2%;
+    z-index: 760;
+    display: none;
+}
+
+
+
+.bannerblock {
+    
+    
+   
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(inicio/Banner-inicio.jpg); 
+    background-size: cover;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+    z-index: -2;
+    text-align: center;
+    
+}
+
+
+.circle{
+    
+    width: 195px;
+    height: 135px;
+    margin: auto;
+    margin-top:30%;
+    background-image: url(eclipse.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top:60px;
+   
+
+    
+}
+
+
+.circle .bannerleyend
+{
+    width: 300px;
+    
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-left: -55px;
+    
+    font-size: 24px;
+}
+
+
+.block4{
+    
+    
+    width: 100%;
+    height: 100%;
+    background-image: url(inicio/banner-reto-digital1.jpg);
+    background-size: cover;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+    z-index: -1;
+    
+    
+}
+
+
+
+
+#arrow
+{
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    
+    color: white;
+    margin-bottom: 5px;
+    
+}
+
+
+
+
+#container, .main{
+    width: 100%;
+    margin: auto;
+    
+    text-align: center;
+   
+    
+}
+
+.main{
+    
+    background-color: red;
+}
+
+
+
+.blocks{
+    width: 95%;
+    height: 500px;
+    background-color: blue;
+    margin: 0px auto;
+    margin-bottom: 5px;
+    
+    
+    
+    
+    
+}
+
+
+.content{
+    
+    width: 98%;
+    height: 245px;
+    background-color: gray;
+    margin: 0px auto;
+    margin-bottom: 5px;
+    
+}
+
+
+
+
+.block4 content4{
+    
+    
+     width: 98%;
+    height: 245px;
+    
+    margin: 0px auto;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@font-face {
+font-family: Lobster;
+src: url(/fonts/Lobster_1.3.otf);
+}
+
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*---------------header------------------*/
+
+
+
+.banner1
+{
+    
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    
+}
+
+
+.banner1 .img1
+{
+    
+    width:98%;
+    max-width:1300px;
+    position: fixed;
+    
+
+}
+
+
+
+.titulo_home {
+    font-size: 12px;
+
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    z-index: 754;
+    width: 180%;
+    margin-left: -40%;
+    margin-top: 28%;
+
+}
+
+
+.circle {
+    
+
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    z-index: 2;
+    margin-left: 32%;
+    margin-top: 15%;    
+    border-radius: 100%;
+    
+}
+
+
+
+
+
+
+
+/*-------------------------menu-------------------------*/
+
+
+.menu{
+    
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    
+    
+}
+
+
+
+#btn_menu
+{
+    color: white;
+    font-size:35px;
+    margin-left: 5px;
+    
+}
+
+.logo{
+    
+    width: 25%;
+    margin-left: 20%;
+    
+}
+
+.phone-img
+{
+    width: 6%;
+    margin-left: 2%;
+}
+
+
+.phone {
+font-size: 12px;
+font-family: "Montserrat";
+color: rgb(27, 117, 254);
+line-height: 1.2;
+text-align: left;
+position: absolute;
+margin-top: 3%;
+margin-left: 2%;
+
+z-index: 760;
+}
+
+
+.container{
+    
+   position: absolute;
+    width: 98%;
+    height: 100%;
+    margin-top: 55%;
+    
+}
+
+
+
+/*contenido 1 */
+
+.content1{
+    
+    
+    
+    width: 100%;
+    
+    background-color: white;
+    
+   
+}
+
+
+
+.content1 .write_content1
+{
+    
+    
+    width: 100%;
+    
+    padding-top: 10%;
+    text-align: center; 
+}
+
+
+
+
+
+.content1 .anim_content1 
+{
+    
+    position: relative;
+    width: 100%;
+   text-align: right;
+    
+}
+
+.content1 .anim_content1 #img1
+{
+    
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    
+    max-width:800px;
+    left: 0px;
+    
+    
+}
+
+
+
+
+.content1 .anim_content1 #img2
+{
+    position: absolute;
+    width: 10%;
+    max-width:800px;
+    left: 1%;
+    top: 70%;
+    bottom:0%;
+    
+    
+}
+
+
+.content1 .write_content1 #title_wc1{
+    
+    font-size: 30px;
+    margin-bottom: 5%;
+    font-family: "Montserrat";
+    color: rgb(27, 117, 254);
+    line-height: 1.2;
+    text-align: center;
+    
+}
+
+
+.content1 .write_content1 .text_content1
+{
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgb(153, 153, 153);
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+.content1 .write_content1 .btn_contactar
+{
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: white;
+    background-color: rgb(27, 117, 254);
+    position: absolute;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 32%;
+    padding-top: 3%;
+    
+    z-index: 749;
+    
+}
+
+
+
+
+
+
+/*-------------------contenido servicio---------------*/
+
+
+
+.service_content{
+   
+    width: 100%;
+    
+    text-align: center;
+    height: auto;
+    background-color: white;
+    
+    
+}
+
+
+.service_content .services{
+    
+    display: inline-block;
+    
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 10px 0px rgba(153, 153, 153, 0.32);
+    width: 180px;
+    height: 180px;
+    z-index: 673;
+    margin-bottom: 8%;
+    
+
+    
+}
+
+.title{
+
+    width: 100%;
+    font-size: 75px;
+    display: block;
+    font-family: Lobster;
+    color: rgb(238, 238, 239);
+    line-height: 1.2;
+    text-align: center;
+    left: 480.937px;
+    top: 2337.5px;
+    z-index: 708;
+    background-color: white;
+    
+
+
+
+}
+
+
+
+.service_content .services .text_services
+{
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: rgb(0, 255, 204);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    
+}
+
+.service_content .services .icon_service 
+{
+    
+    text-align: center; 
+    width: 70px;
+    height: 58px;
+    z-index: 755;
+    margin-left: 30%;
+    margin-top: 10%;
+    padding-top: 10%;
+    border-radius: 100%;
+    background-color: #00FFCC;
+    
+    
+    
+}
+
+
+.service_content .services .icon_service img
+{
+    
+    width: 15px;
+}
+/*----------------------contenido 2-----------------*/
+
+
+.content2{
+    
+    position: relative;
+    width: 100%;
+    
+    background-color: white;
+   
+}
+
+
+.content2 .write_content2
+{
+    
+    width: 100%;
+    
+    padding-top: 10%;
+    text-align: center;
+    top: 65%;
+    
+}
+
+
+
+.content2 .anim_content2
+{
+    
+    width: 100%;
+    
+    text-align: right;
+}
+
+.content2 .write_content2 .text_content2
+{
+    font-size: 40px;
+    font-family: Lobster ;
+    color: rgb(27, 117, 254);
+    line-height: 1.2;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------contact zone-------------------*/
+
+.contact_zone{
+    
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    
+}
+
+/*----------------------banner2----------------------*/
+.banner2
+{
+    
+    width: 100%;
+    height: 60%;
+    
+   background-color: white;
+    
+}
+
+ .banner2 .img2
+{
+    
+    
+    width:100%;
+    max-width:1300px;
+    
+    z-index: -1;
+    
+    
+    
+}
+
+
+.texto_banner2{
+    color: white;
+    position: absolute;
+    font-size: 18px;
+    margin-top: -40%;
+    text-align: center;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    z-index: 664;
+}
+
+
+
+.boton_lineal{
+    color: white;
+    font-family: "Montserrat";
+    position: absolute;
+    font-size: 18px;
+    padding-top: 5%;
+    margin-top: -22%;
+    margin-left: 25%;
+    text-align: center;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    position: absolute;
+    width: 130px;
+    height: 38px;
+    z-index: 666;
+    
+}
